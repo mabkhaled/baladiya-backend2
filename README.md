@@ -75,7 +75,3 @@ send the username and password :
 
 ## Authors
 
-  - **Ghazi Ben Hadj Yahia** - *Provided README Template* -
-    [Ghazibenhajyahia](https://github.com/Ghazibenhajyahia)
-  - **Khaled Mabrouk** - ** -
-
