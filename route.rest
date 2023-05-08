@@ -1,0 +1,83 @@
+GET http://localhost:3000/users
+Content-Type: application/json
+
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "email":"ghazi.benhadjyahia@esprit.tn",
+    "password": "ghazi"
+}
+###
+POST http://localhost:3000/users/forgotPassword
+Content-Type: application/json
+
+{
+    "email":"ghazi.benhadjyahia@esprit.tn" 
+    
+}
+
+###
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+   
+    "firstName": "ghazi",
+    "lastName": "benhadjyahia",
+    "phoneNumber": 911,
+    "email": "ghazi.benhadjyahia@esprit.tn",
+    "gender": "alpha",
+    "civilStatus": "single",
+    "cin": 1000,
+    "password": "ghazi",
+   
+    "address": "61a41bb8130bc22ed5a7d670",
+    "claims": [],
+    "Municipalitys": [],
+    "__v": 0
+  }
+
+
+###
+POST http://localhost:3000/users/resetPassword/ghazi.benhadjyahia@esprit.tn/9967
+Content-Type: application/json
+{
+    "password":"ghazighazi" 
+    
+}
+###
+GET http://localhost:3000/users/6197ba57107fac270ec86bf0
+
+###
+
+DELETE http://localhost:3000/users/61b86f1f5c1b90a17aa3ac69
+
+
+###
+
+PATCH  http://localhost:3000/users/61911d8ca8402a5be0182808
+Content-Type: application/json
+
+{
+    
+    "address" : {
+        "street" : "La goulette",
+        "city" : "Tunis" ,
+        "State" : "Tunis",
+        "postalCode" : 2060 ,
+        "country" : "Tunis"
+    }
+}
+###
+
+PATCH  http://localhost:3000/users/6197ba57107fac270ec86bf0
+Content-Type: application/json
+
+
+
+{
+  "photos":"frer"
+}
